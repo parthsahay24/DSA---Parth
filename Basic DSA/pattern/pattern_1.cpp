@@ -18,6 +18,9 @@ Print the pattern in the function given to you.
 just a practice question for brushing up your skills and reasoning abilities. */
 
 
+// Author: Lohitaksh Sinha
+
+
 #include<iostream>
 using namespace std;
 
