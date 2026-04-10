@@ -35,6 +35,63 @@ void pattern(int n){
       }
       cout<<endl;
     }
+    // author 2: LOHITAKSH SINHA
+
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < n; j++)
+    {
+      if (j <= i)
+      {
+        cout << n - j;
+      }
+      else
+      {
+        cout << n - i;
+      }
+    }
+
+    for (int j = 1; j < n; j++)
+    {
+      if (j < n - i)
+      {
+        cout << n - i;
+      }
+      else
+      {
+        cout << j + 1;
+      }
+    }
+    cout << endl;
+  }
+
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 0; j < n - 1; j++)
+    {
+      if (j < n - i)
+      {
+        cout << n - j;
+      }
+      else
+      {
+        cout << i;
+      }
+    }
+
+    for (int j = 1; j <= 5; j++)
+    {
+      if (j <= i)
+      {
+        cout << i;
+      }
+      else
+      {
+        cout << j;
+      }
+    }
+    cout << endl;
+  }
 
 }
 int main(){
