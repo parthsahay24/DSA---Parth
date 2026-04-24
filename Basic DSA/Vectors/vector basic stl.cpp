@@ -264,7 +264,7 @@ int map_pushing() {
 
 /* ❶ Use and meaning of upper bound and lower bound:-
 let's say value is :- 10 20 30 40
-if we set lower bount to be 25 and upper bound to be 25 too. Let's see what it means:
+if we set lower bound to be 25 and upper bound to be 25 too. Let's see what it means:
 🔸 lower_bound(25)
 
 👉 Pehla element ≥ 25 → 30
