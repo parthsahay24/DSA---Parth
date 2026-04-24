@@ -7,6 +7,8 @@
 #include <queue>
 #include <set>
 #include <map>
+#include <algorithm>
+#include <string>
 using namespace std;
 /*                              VECTOR BASIC                               */
 int vec() {
