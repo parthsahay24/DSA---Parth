@@ -200,7 +200,7 @@ int set_ins() {
 }
 // We can't use PUSH - But we can use EMPLACE or INSERT functions to add elements to a set.
 // We can use these functions in a set container:
-// inset/emplace - to add elements to the set   
+// insert/emplace - to add elements to the set   
 // find - to check if an element exists in the set
 // erase and size and empty and clear and count
 // lower_bound and upper_bound - to find the range of elements in the set
