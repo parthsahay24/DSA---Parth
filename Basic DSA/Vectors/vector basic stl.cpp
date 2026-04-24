@@ -230,7 +230,7 @@ int Multiset_ins() {
 // A map is a collection of key-value pairs where each key is unique and maps to a specific value.
 // It provides fast retrieval of values based on their associated keys.
 
-// Using inset,emplace and assignment operator to add elements to a map container.
+// Using insert, emplace and assignment operator to add elements to a map container.
 int map_pushing() {
     map<int, string> m;
     m.insert({1, "one"});
