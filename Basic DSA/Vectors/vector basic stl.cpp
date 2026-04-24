@@ -286,7 +286,7 @@ int PermuRotation() {
     int k = 3;
 
     while(k--) {
-    next_permutation(v.begin(), v.end());
+        next_permutation(v.begin(), v.end());
     }
 
     for(int x : v) cout << x << " ";
