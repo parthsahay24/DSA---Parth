@@ -186,7 +186,6 @@ int queue_front() {
 
 /*                              SET CONTAINER                               */
 //stores unique elements in a sorted manner.
-//stores unique elements in a sorted manner.
 int set_ins() {
     set<int> s;
     s.insert(10);
