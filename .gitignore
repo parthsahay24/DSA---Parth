@@ -1,4 +1,5 @@
 *.exe
 *.out
 *.dSYM
-.vscode
+*.vscode
+.DS_Store
